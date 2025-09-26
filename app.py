@@ -4,3 +4,7 @@ print("This is a sample Python application.")
 
 while True:
     time.sleep(60)
+
+def greet(name):
+    return f"Hello, {name}!"
+print(greet("Asha"))
